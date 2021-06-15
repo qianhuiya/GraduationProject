@@ -1,0 +1,15 @@
+.el-form-item__label {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 13px;
+}
+
+.el-avatar>img {
+  cursor: pointer;
+}
+
+.el-pagination {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,76 @@
+import { 
+  ElButton,
+  ElNotification,
+  ElSelect,
+  ElOption,
+  ElForm,
+  ElFormItem,
+  ElInput,
+  ElContainer,
+  ElAside,
+  ElMenu,
+  ElSubmenu,
+  ElMenuItem,
+  ElHeader,
+  ElDropdown,
+  ElDropdownMenu,
+  ElDropdownItem,
+  ElMain,
+  ElAvatar,
+  ElTable,
+  ElTableColumn,
+  ElPagination,
+  ElCard,
+  ElBreadcrumb,
+  ElBreadcrumbItem,
+  ElLoading,
+  ElPopconfirm,
+  ElPopover,
+  ElImage,
+  ElLink,
+  ElRow,
+  ElCol,
+  ElTabPane,
+  ElTabs,
+  ElDialog
+ } from 'element-plus'
+import lang from 'element-plus/lib/locale/lang/zh-cn'
+import locale from 'element-plus/lib/locale'
+
+export default (app) => {
+  locale.use(lang)
+  app.use(ElButton)
+  app.use(ElNotification)
+  app.use(ElSelect)
+  app.use(ElOption)
+  app.use(ElForm)
+  app.use(ElFormItem)
+  app.use(ElInput)
+  app.use(ElContainer)
+  app.use(ElAside)
+  app.use(ElMenu)
+  app.use(ElSubmenu)
+  app.use(ElMenuItem)
+  app.use(ElHeader)
+  app.use(ElDropdown)
+  app.use(ElDropdownMenu)
+  app.use(ElDropdownItem)
+  app.use(ElMain)
+  app.use(ElAvatar)
+  app.use(ElTable)
+  app.use(ElTableColumn)
+  app.use(ElPagination)
+  app.use(ElCard)
+  app.use(ElBreadcrumb)
+  app.use(ElBreadcrumbItem)
+  app.use(ElLoading)
+  app.use(ElPopconfirm)
+  app.use(ElPopover)
+  app.use(ElImage)
+  app.use(ElLink)
+  app.use(ElRow)
+  app.use(ElCol)
+  app.use(ElTabs)
+  app.use(ElTabPane)
+  app.use(ElDialog)
+}
